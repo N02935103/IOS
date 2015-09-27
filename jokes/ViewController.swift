@@ -10,9 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myJokelabel: UILabel!
+
+    let jokesbook = JokesBook()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
+       
+        myJokelabel.text = jokesbook.randomJoke()
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +27,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func jokeButton() {
+               myJokelabel.text =  jokesbook.randomJoke()
+    }
 
 }
 

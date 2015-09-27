@@ -15,6 +15,8 @@
 		58588F581BB6E3760075F40C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58588F561BB6E3760075F40C /* LaunchScreen.storyboard */; };
 		58588F631BB6E3760075F40C /* jokesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58588F621BB6E3760075F40C /* jokesTests.swift */; };
 		58588F6E1BB6E3760075F40C /* jokesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58588F6D1BB6E3760075F40C /* jokesUITests.swift */; };
+		58588F7C1BB6F24F0075F40C /* JokesBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58588F7B1BB6F24F0075F40C /* JokesBook.swift */; settings = {ASSET_TAGS = (); }; };
+		58AB7A601BB742BB003BE658 /* color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB7A5F1BB742BA003BE658 /* color.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		58588F691BB6E3760075F40C /* jokesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jokesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58588F6D1BB6E3760075F40C /* jokesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jokesUITests.swift; sourceTree = "<group>"; };
 		58588F6F1BB6E3760075F40C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58588F7B1BB6F24F0075F40C /* JokesBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokesBook.swift; sourceTree = "<group>"; };
+		58AB7A5F1BB742BA003BE658 /* color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		58588F491BB6E3760075F40C /* jokes */ = {
 			isa = PBXGroup;
 			children = (
+				58588F7B1BB6F24F0075F40C /* JokesBook.swift */,
 				58588F4A1BB6E3760075F40C /* AppDelegate.swift */,
 				58588F4C1BB6E3760075F40C /* ViewController.swift */,
 				58588F4E1BB6E3760075F40C /* Main.storyboard */,
@@ -106,6 +111,7 @@
 				58588F561BB6E3760075F40C /* LaunchScreen.storyboard */,
 				58588F591BB6E3760075F40C /* Info.plist */,
 				58588F511BB6E3760075F40C /* jokes.xcdatamodeld */,
+				58AB7A5F1BB742BA003BE658 /* color.swift */,
 			);
 			path = jokes;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				58588F4D1BB6E3760075F40C /* ViewController.swift in Sources */,
+				58588F7C1BB6F24F0075F40C /* JokesBook.swift in Sources */,
 				58588F531BB6E3760075F40C /* jokes.xcdatamodeld in Sources */,
+				58AB7A601BB742BB003BE658 /* color.swift in Sources */,
 				58588F4B1BB6E3760075F40C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +493,7 @@
 				58588F741BB6E3760075F40C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58588F751BB6E3760075F40C /* Build configuration list for PBXNativeTarget "jokesTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +502,7 @@
 				58588F771BB6E3760075F40C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58588F781BB6E3760075F40C /* Build configuration list for PBXNativeTarget "jokesUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +511,7 @@
 				58588F7A1BB6E3760075F40C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
